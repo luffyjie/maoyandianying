@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2533A5A21A0DE17000CF492F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2533A5A01A0DE17000CF492F /* Main.storyboard */; };
+		2533A5A41A0DE17000CF492F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2533A5A31A0DE17000CF492F /* Images.xcassets */; };
+		2533A5B31A0DE17000CF492F /* maoyandianyingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5B21A0DE17000CF492F /* maoyandianyingTests.m */; };
+		2533A5D21A0DF67700CF492F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5D01A0DF67700CF492F /* AppDelegate.m */; };
+		2533A5D31A0DF67700CF492F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5D11A0DF67700CF492F /* main.m */; };
+		2533A5D61A0DF6EC00CF492F /* TPMoviesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5D51A0DF6EC00CF492F /* TPMoviesController.m */; };
+		2533A5D91A0DF6FE00CF492F /* TPMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5D81A0DF6FE00CF492F /* TPMeController.m */; };
+		2533A5DC1A0DF71700CF492F /* TPCommunityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5DB1A0DF71700CF492F /* TPCommunityController.m */; };
+		2533A5DF1A0DF72B00CF492F /* TPCinemaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A5DE1A0DF72B00CF492F /* TPCinemaController.m */; };
+		255D307E1A0E15CA00A43810 /* TPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255D30791A0E15CA00A43810 /* TPNavigationController.m */; };
+		255D307F1A0E15CA00A43810 /* TPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255D307B1A0E15CA00A43810 /* TPTabBarController.m */; };
+		255D30821A0E15F400A43810 /* TPCusTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 255D30811A0E15F400A43810 /* TPCusTabBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2533A5AD1A0DE17000CF492F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2533A58B1A0DE17000CF492F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2533A5921A0DE17000CF492F;
+			remoteInfo = maoyandianying;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2533A5931A0DE17000CF492F /* 猫眼电影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猫眼电影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2533A5971A0DE17000CF492F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2533A5A11A0DE17000CF492F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2533A5A31A0DE17000CF492F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2533A5AC1A0DE17000CF492F /* maoyandianyingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maoyandianyingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2533A5B11A0DE17000CF492F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2533A5B21A0DE17000CF492F /* maoyandianyingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maoyandianyingTests.m; sourceTree = "<group>"; };
+		2533A5BC1A0DEB3B00CF492F /* maoyandianying-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "maoyandianying-Prefix.pch"; sourceTree = "<group>"; };
+		2533A5CF1A0DF67700CF492F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2533A5D01A0DF67700CF492F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2533A5D11A0DF67700CF492F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2533A5D41A0DF6EC00CF492F /* TPMoviesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMoviesController.h; sourceTree = "<group>"; };
+		2533A5D51A0DF6EC00CF492F /* TPMoviesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMoviesController.m; sourceTree = "<group>"; };
+		2533A5D71A0DF6FE00CF492F /* TPMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMeController.h; sourceTree = "<group>"; };
+		2533A5D81A0DF6FE00CF492F /* TPMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMeController.m; sourceTree = "<group>"; };
+		2533A5DA1A0DF71700CF492F /* TPCommunityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCommunityController.h; sourceTree = "<group>"; };
+		2533A5DB1A0DF71700CF492F /* TPCommunityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCommunityController.m; sourceTree = "<group>"; };
+		2533A5DD1A0DF72B00CF492F /* TPCinemaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCinemaController.h; sourceTree = "<group>"; };
+		2533A5DE1A0DF72B00CF492F /* TPCinemaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCinemaController.m; sourceTree = "<group>"; };
+		255D30781A0E15CA00A43810 /* TPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNavigationController.h; sourceTree = "<group>"; };
+		255D30791A0E15CA00A43810 /* TPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNavigationController.m; sourceTree = "<group>"; };
+		255D307A1A0E15CA00A43810 /* TPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTabBarController.h; sourceTree = "<group>"; };
+		255D307B1A0E15CA00A43810 /* TPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTabBarController.m; sourceTree = "<group>"; };
+		255D30801A0E15F400A43810 /* TPCusTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCusTabBarItem.h; sourceTree = "<group>"; };
+		255D30811A0E15F400A43810 /* TPCusTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCusTabBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2533A5901A0DE17000CF492F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2533A5A91A0DE17000CF492F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2533A58A1A0DE17000CF492F = {
+			isa = PBXGroup;
+			children = (
+				2533A5951A0DE17000CF492F /* maoyandianying */,
+				2533A5AF1A0DE17000CF492F /* maoyandianyingTests */,
+				2533A5941A0DE17000CF492F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2533A5941A0DE17000CF492F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5931A0DE17000CF492F /* 猫眼电影.app */,
+				2533A5AC1A0DE17000CF492F /* maoyandianyingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2533A5951A0DE17000CF492F /* maoyandianying */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5BD1A0DF67700CF492F /* Classes */,
+				2533A5961A0DE17000CF492F /* Supporting Files */,
+			);
+			path = maoyandianying;
+			sourceTree = "<group>";
+		};
+		2533A5961A0DE17000CF492F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5A01A0DE17000CF492F /* Main.storyboard */,
+				2533A5A31A0DE17000CF492F /* Images.xcassets */,
+				2533A5BC1A0DEB3B00CF492F /* maoyandianying-Prefix.pch */,
+				2533A5971A0DE17000CF492F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2533A5AF1A0DE17000CF492F /* maoyandianyingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5B21A0DE17000CF492F /* maoyandianyingTests.m */,
+				2533A5B01A0DE17000CF492F /* Supporting Files */,
+			);
+			path = maoyandianyingTests;
+			sourceTree = "<group>";
+		};
+		2533A5B01A0DE17000CF492F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5B11A0DE17000CF492F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2533A5BD1A0DF67700CF492F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				255D30761A0E15CA00A43810 /* Main */,
+				2533A5BE1A0DF67700CF492F /* Cinema(影院) */,
+				2533A5C21A0DF67700CF492F /* Community(社区) */,
+				2533A5C61A0DF67700CF492F /* Me(我的) */,
+				2533A5CA1A0DF67700CF492F /* Movies(电影) */,
+				2533A5CE1A0DF67700CF492F /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2533A5BE1A0DF67700CF492F /* Cinema(影院) */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5BF1A0DF67700CF492F /* Control */,
+				2533A5C01A0DF67700CF492F /* Model */,
+				2533A5C11A0DF67700CF492F /* View */,
+			);
+			path = "Cinema(影院)";
+			sourceTree = "<group>";
+		};
+		2533A5BF1A0DF67700CF492F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5DD1A0DF72B00CF492F /* TPCinemaController.h */,
+				2533A5DE1A0DF72B00CF492F /* TPCinemaController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		2533A5C01A0DF67700CF492F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2533A5C11A0DF67700CF492F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2533A5C21A0DF67700CF492F /* Community(社区) */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5C31A0DF67700CF492F /* Control */,
+				2533A5C41A0DF67700CF492F /* Model */,
+				2533A5C51A0DF67700CF492F /* View */,
+			);
+			path = "Community(社区)";
+			sourceTree = "<group>";
+		};
+		2533A5C31A0DF67700CF492F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5DA1A0DF71700CF492F /* TPCommunityController.h */,
+				2533A5DB1A0DF71700CF492F /* TPCommunityController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		2533A5C41A0DF67700CF492F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2533A5C51A0DF67700CF492F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2533A5C61A0DF67700CF492F /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5C71A0DF67700CF492F /* Control */,
+				2533A5C81A0DF67700CF492F /* Model */,
+				2533A5C91A0DF67700CF492F /* View */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		2533A5C71A0DF67700CF492F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5D71A0DF6FE00CF492F /* TPMeController.h */,
+				2533A5D81A0DF6FE00CF492F /* TPMeController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		2533A5C81A0DF67700CF492F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2533A5C91A0DF67700CF492F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2533A5CA1A0DF67700CF492F /* Movies(电影) */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5CB1A0DF67700CF492F /* Control */,
+				2533A5CC1A0DF67700CF492F /* Model */,
+				2533A5CD1A0DF67700CF492F /* View */,
+			);
+			path = "Movies(电影)";
+			sourceTree = "<group>";
+		};
+		2533A5CB1A0DF67700CF492F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5D41A0DF6EC00CF492F /* TPMoviesController.h */,
+				2533A5D51A0DF6EC00CF492F /* TPMoviesController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		2533A5CC1A0DF67700CF492F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2533A5CD1A0DF67700CF492F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2533A5CE1A0DF67700CF492F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2533A5CF1A0DF67700CF492F /* AppDelegate.h */,
+				2533A5D01A0DF67700CF492F /* AppDelegate.m */,
+				2533A5D11A0DF67700CF492F /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		255D30761A0E15CA00A43810 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				255D30771A0E15CA00A43810 /* Control */,
+				255D307C1A0E15CA00A43810 /* Model */,
+				255D307D1A0E15CA00A43810 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		255D30771A0E15CA00A43810 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				255D30781A0E15CA00A43810 /* TPNavigationController.h */,
+				255D30791A0E15CA00A43810 /* TPNavigationController.m */,
+				255D307A1A0E15CA00A43810 /* TPTabBarController.h */,
+				255D307B1A0E15CA00A43810 /* TPTabBarController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		255D307C1A0E15CA00A43810 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		255D307D1A0E15CA00A43810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				255D30801A0E15F400A43810 /* TPCusTabBarItem.h */,
+				255D30811A0E15F400A43810 /* TPCusTabBarItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2533A5921A0DE17000CF492F /* maoyandianying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2533A5B61A0DE17000CF492F /* Build configuration list for PBXNativeTarget "maoyandianying" */;
+			buildPhases = (
+				2533A58F1A0DE17000CF492F /* Sources */,
+				2533A5901A0DE17000CF492F /* Frameworks */,
+				2533A5911A0DE17000CF492F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maoyandianying;
+			productName = maoyandianying;
+			productReference = 2533A5931A0DE17000CF492F /* 猫眼电影.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2533A5AB1A0DE17000CF492F /* maoyandianyingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2533A5B91A0DE17000CF492F /* Build configuration list for PBXNativeTarget "maoyandianyingTests" */;
+			buildPhases = (
+				2533A5A81A0DE17000CF492F /* Sources */,
+				2533A5A91A0DE17000CF492F /* Frameworks */,
+				2533A5AA1A0DE17000CF492F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2533A5AE1A0DE17000CF492F /* PBXTargetDependency */,
+			);
+			name = maoyandianyingTests;
+			productName = maoyandianyingTests;
+			productReference = 2533A5AC1A0DE17000CF492F /* maoyandianyingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2533A58B1A0DE17000CF492F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.test.saybel;
+				TargetAttributes = {
+					2533A5921A0DE17000CF492F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2533A5AB1A0DE17000CF492F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2533A5921A0DE17000CF492F;
+					};
+				};
+			};
+			buildConfigurationList = 2533A58E1A0DE17000CF492F /* Build configuration list for PBXProject "maoyandianying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2533A58A1A0DE17000CF492F;
+			productRefGroup = 2533A5941A0DE17000CF492F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2533A5921A0DE17000CF492F /* maoyandianying */,
+				2533A5AB1A0DE17000CF492F /* maoyandianyingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2533A5911A0DE17000CF492F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2533A5A21A0DE17000CF492F /* Main.storyboard in Resources */,
+				2533A5A41A0DE17000CF492F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2533A5AA1A0DE17000CF492F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2533A58F1A0DE17000CF492F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2533A5D61A0DF6EC00CF492F /* TPMoviesController.m in Sources */,
+				2533A5D91A0DF6FE00CF492F /* TPMeController.m in Sources */,
+				2533A5D21A0DF67700CF492F /* AppDelegate.m in Sources */,
+				255D307F1A0E15CA00A43810 /* TPTabBarController.m in Sources */,
+				255D30821A0E15F400A43810 /* TPCusTabBarItem.m in Sources */,
+				2533A5DC1A0DF71700CF492F /* TPCommunityController.m in Sources */,
+				255D307E1A0E15CA00A43810 /* TPNavigationController.m in Sources */,
+				2533A5DF1A0DF72B00CF492F /* TPCinemaController.m in Sources */,
+				2533A5D31A0DF67700CF492F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2533A5A81A0DE17000CF492F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2533A5B31A0DE17000CF492F /* maoyandianyingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2533A5AE1A0DE17000CF492F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2533A5921A0DE17000CF492F /* maoyandianying */;
+			targetProxy = 2533A5AD1A0DE17000CF492F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2533A5A01A0DE17000CF492F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2533A5A11A0DE17000CF492F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2533A5B41A0DE17000CF492F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2533A5B51A0DE17000CF492F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2533A5B71A0DE17000CF492F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = maoyandianying/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "猫眼电影";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2533A5B81A0DE17000CF492F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = maoyandianying/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "猫眼电影";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2533A5BA1A0DE17000CF492F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = maoyandianyingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maoyandianying.app/maoyandianying";
+			};
+			name = Debug;
+		};
+		2533A5BB1A0DE17000CF492F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = maoyandianyingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maoyandianying.app/maoyandianying";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2533A58E1A0DE17000CF492F /* Build configuration list for PBXProject "maoyandianying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2533A5B41A0DE17000CF492F /* Debug */,
+				2533A5B51A0DE17000CF492F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2533A5B61A0DE17000CF492F /* Build configuration list for PBXNativeTarget "maoyandianying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2533A5B71A0DE17000CF492F /* Debug */,
+				2533A5B81A0DE17000CF492F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2533A5B91A0DE17000CF492F /* Build configuration list for PBXNativeTarget "maoyandianyingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2533A5BA1A0DE17000CF492F /* Debug */,
+				2533A5BB1A0DE17000CF492F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2533A58B1A0DE17000CF492F /* Project object */;
+}
